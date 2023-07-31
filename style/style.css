@@ -1,0 +1,445 @@
+@charset "utf-8";
+
+.hero-page {
+    padding: 5em 0 0 0;
+}
+
+.img {
+    display: none;
+}
+
+.image {
+    width: 100%;
+    height: auto;
+    z-index: 1;
+    background-color: grey;
+}
+
+
+.header-text {
+    color: #183153;
+}
+
+.header-text-wrap {
+    background-color: #040059;
+}
+
+.header-text h1 {
+    font-size: 3em;
+    padding-left: 0.5em;
+    z-index: 10;
+    color: #fff;
+    font-weight: bolder;
+    filter: contrast(170%) brightness(150%);
+}
+
+.text-desc {
+    text-align: left;
+    font-size: 1.8em;
+    padding-top: 1em;
+    padding-left: 0.5em;
+    font-family: serif;
+}
+
+.verse {
+    font-size: 1.5em;
+    padding-left: 0.5em;
+    position: absolute;
+    color: #fff;
+    margin-top: -1.8em;
+    right: 0.5em;
+}
+
+.italics {
+    font-style: italic;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.buttons {
+    margin: 1em auto;
+    text-align: center;
+    justify-content: space-between;
+    padding-bottom: 1em;
+}
+
+.btn {
+    font-size: 1.5em;
+    width: 85%;
+    height: auto;
+    color: #183153;
+    border: 2px solid #000;
+}
+
+.btn-info {
+    background-color: #064e3b; 
+    color: #fff;
+  }
+
+
+.primary { 
+    -webkit-box-shadow: inset -1px -3px 2px 1px rgba(15, 15, 165, 0.718);
+    -moz-box-shadow: inset -1px -3px 2px 1px rgba(15, 15, 165, 0.718); 
+    box-shadow: inset 0 -5px 0 0 #000000;
+}
+
+.card {
+    margin: 0 auto;
+    width: 95%;
+    box-shadow: 1px 2px 3px 4px rgba(20,20,20,0.4);
+    }
+
+.fa-3x {
+    color: #183153;
+}
+
+
+.service {
+    text-align: center;
+}
+
+.calendar-image {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding-top: 0;
+    filter: brightness(80%) contrast(110%);
+}
+
+.service .day {
+    font-size: 3em;
+    color: #183153;
+    filter: brightness(120%) contrast(190%);
+    text-align: left;
+    padding-left: 1.5em;
+}
+
+.service div {
+    padding-top: 1.5em;
+}
+
+.saturday {
+    padding-bottom: 1.5em;
+}
+
+
+.service .time {
+    font-size: 1.5em;
+}
+
+.branches {
+    padding-top: 2em;
+}
+
+.svg-image {
+    width: 100%;
+    height: auto;
+    padding-top: 1em;
+}
+
+
+.svg-text {
+    font-size: 1.7em;
+    color: #183153;
+    padding-left: 1em;
+}
+
+.testimony {
+    text-align: center;
+    background-color: #f8f8f8;
+}
+
+.testimony-text {
+    font-size: 1.7em;
+    padding-left: 1em;
+    color: #183153;
+    text-align: left;
+}
+
+.video-text {
+    color: #183153;
+    font-weight: bold;
+    font-size: 1.7em;
+}
+
+.video {
+    width: 100%;
+    height: auto;
+}
+
+.project {
+    text-align: center;
+    padding-top: 3em;
+    background-color: #fff;
+}
+
+.project-text {
+    padding-left: 0;
+    width: 95%;  
+    margin: 0 auto;
+}
+
+.north-img {
+    width: 100%;
+    height: auto;
+    filter: brightness(90%) contrast(110%);
+}
+
+.globe-svg {
+    width: 100%;
+    height: auto;
+}
+
+
+.globe-align {
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.bible-college-svg {
+    width: 100%;
+    height: auto;
+}
+
+.bible-collage-text {
+    font-size: 1.8em;
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #183153;
+}
+
+@media only screen and (min-device-width: 525px) and (max-device-width: 800px) {
+       
+    .buttons {
+        display: flex;
+        padding: 0 4em;
+    }
+
+    .btn {
+        width: 10em;
+        padding: 5px;
+        height: auto;
+    }
+}
+
+@media only screen and (min-device-width: 801px) {
+
+
+    .header-text-wrap {
+        background-color: #fff;
+    } 
+
+    .hero-page {
+        background-color: #fff;
+        width: 95%;
+        height: 80vh;
+        display: flex;
+        flex-direction: row-reverse;
+        margin: 0 auto;
+        padding: 2em 0 0 0;
+    }
+
+    .header-text h1 {
+        position: relative;
+        margin: 2.5em 0 0 0;
+        font-size: 3.5em;
+        color: #183153;
+    }
+
+    .verse {
+        color: #183153;
+        font-size: 1.7em;
+        position: relative;
+        margin: auto;
+        margin-left: 2em;
+    }
+
+    .text-wrapper {
+        position: relative;
+        padding-left: 0.2em;
+        width: 55%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .image {
+        width: 100%;
+        height: auto;
+        filter: none;
+        background-color: #fff;
+        padding-top: 4em;
+    }
+
+    .img {
+        display: block;
+        width: 45%;
+        height: auto;
+    }
+
+    .buttons {
+        display: flex;
+        justify-content: space-between;
+        padding: 1em;
+        margin: 0 auto;
+    }
+
+    .btn {
+        padding: 5px;
+        width: 12em;
+        height: auto;
+        margin: 1em;
+    }
+
+  
+
+    .branches {
+        display: flex;
+        background-color: aqua;
+    }
+
+    .svg-image {
+        width: 100%;
+        height: auto;
+    }
+
+    .svg-wrap {
+        background-color: #fff;
+        width: 50%;
+        height: auto;
+    }
+
+    .svg-text-wrap {
+        background-color: #fff;
+        display: block;
+        width: 50%;
+        height: auto;
+    }
+
+    .svg-text {
+        position: relative;
+        margin-top: 0;
+        font-size: 2em;
+    }
+
+.bible-text {
+    font-size: 2em;
+    color: #183153;
+    width: 95%;
+    margin: 0 auto;
+    padding-top: 2em;
+}
+
+.text-desc {
+    text-align: left;
+    font-size: 2em;
+    padding-top: 1em;
+    padding-left: 1em;
+    font-family: serif;
+    width: 100%;
+}
+
+    .testimony {
+        display: flex;
+        flex-direction: row;
+        margin: 0 auto;
+    }
+
+    .video-text {
+        width: 50%;
+        height: auto;
+    }
+
+    .video-play {
+        width: 50%;
+        height: auto;
+    }
+ 
+    
+    .project {
+        display: flex;
+    }
+
+  
+
+    .project-text {
+        width: 50%;
+        height: auto;
+        padding: 2em 1em;
+    }
+
+    .project-img {
+        width: 50%;
+    }
+
+    .globe-svg {
+        width: 50%;
+        height: auto;
+        margin-left: 2em;
+    }
+    
+    .service {
+        display: flex;
+        flex-direction: row-reverse;
+        background-color: #f8f8f8;
+    }
+
+    .width {
+        margin: 0 auto;
+        width: 95%;
+        min-height: 70vh;
+    }
+
+    .service-wrapper {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .list-wrap {
+        width: 45%;
+        display: block;
+        height: auto;
+        margin-top: 3em;
+    }
+
+    .calendar {
+        width: 55%;
+        display: block;
+        height: auto;
+    }
+
+    .calendar-image {
+        max-width: 100%;
+        width: 100%;
+        height: auto;
+    }
+
+    .day {
+        text-align: center;
+        margin-left: 3em;
+        padding: 0.2em;
+    }
+
+    .bible-college {
+        display: flex;
+        flex-direction: row-reverse;
+    }  
+    
+    .globe-align {
+        width: 40%;
+        height: auto;
+        padding-top: 3em;
+    }
+
+    .bible-collage-text {
+        width: 60%;
+        height: auto;
+        padding: 4em 1em 0 1em;
+        font-size: 2.4em;
+    }
+
+    
+}

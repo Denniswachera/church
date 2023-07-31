@@ -1,0 +1,47 @@
+.hero-page {
+    padding-top: 5.2em;
+}
+
+.hero-image {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+}
+
+
+.audio-text {
+    color: #183153;
+}
+
+.video {
+    vertical-align: baseline;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.preacher {
+    font-size: 1.4em
+}
+
+.text-description {
+    font-size: 1.7em;
+}
+
+@media only screen and (min-device-width: 801px) {
+
+    .hero-page {
+        padding-top: 8.2em;
+    }
+    
+    .main {
+        width: 70%;
+        margin: 0 auto;
+    } 
+
+    .video-width {
+        width: 80%;
+        margin: 0 auto;
+    }
+}

@@ -1,0 +1,57 @@
+@charset "utf-8";
+
+.header-image {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+}
+
+.main {
+    padding-top: 5.3em;
+}
+
+.intro-text {
+    font-size: 3em;
+    font-weight: bold;
+    text-align: center;
+    color: #183153;
+    text-decoration: underline;
+}
+
+.text-desc {
+    font-size: 2.2em;
+    color: #183153;
+    text-align: center;
+}
+.branch-desc {
+color: #183153;
+text-align: left;
+font-size: 1.9em;
+padding-left: 1em;
+}
+
+.list {
+    font-style: italic;
+}
+
+.align {
+    height: auto;
+    color: #183153;
+    text-align: center;
+}
+
+
+@media only screen and (min-device-width: 801px) {
+ .main {
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 8.2em;
+
+ }
+ 
+ .intro-text {
+    display: block;
+ }
+
+
+}
