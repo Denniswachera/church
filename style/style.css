@@ -167,6 +167,7 @@
 .video {
     width: 100%;
     height: auto;
+    border-radius: 6px;
 }
 
 .project {
@@ -356,6 +357,10 @@
     .video-play {
         width: 50%;
         height: auto;
+    }
+
+    .video {
+        padding-top: 3em;
     }
  
     
