@@ -100,7 +100,7 @@ ul li {
     .header__container {
         display: flex;
         flex-direction: row;
-        padding-left: 5em;
+        padding-left: 2.5em;
         height: auto;
     }
     
@@ -112,7 +112,7 @@ ul li {
 
   .header__burger {
     position: relative;
-    width: 30px;
+    width: 45px;
     height: 20px;
     right: 10px;
     display: -webkit-box;
@@ -127,7 +127,7 @@ ul li {
   }
 
   .header__burger span {
-    height: 2px;
+    height: 3px;
     width: 100%;
     background: #000;
     -webkit-transition: all 0.3s ease 0s;
@@ -296,25 +296,25 @@ logo-text {
 
     .laptop-logo {
         display: inline-flex;
-        width: 15%;
+        width: 12%;
         height: auto;
     }
 
     .logo-text {
         display: inline-block;
-        font-size: 1.5em;
+        font-size: 1.2em;
         text-decoration: none;
         color: #183153;
         font-weight: bolder;
         position: absolute;
-        margin-top: 0.1em;
+        margin-top: 0.2em;
     }
 
      @media only screen and (min-device-width: 801px) { 
 
       .logo-text {
-        font-size: 1.8em;
         margin-top: 0.3em;
+        font-size: 1.5em;
       }
 
   }
