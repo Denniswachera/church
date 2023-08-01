@@ -10,7 +10,7 @@
 
 
 .audio-text {
-    color: #183153;
+    color: #000;
 }
 
 .video {
@@ -22,11 +22,13 @@
 }
 
 .preacher {
-    font-size: 1.4em
+    font-size: 1.8em
 }
 
 .text-description {
     font-size: 1.7em;
+    font-style: italic;
+    text-decoration: underline;
 }
 
 @media only screen and (min-device-width: 801px) {

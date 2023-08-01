@@ -20,11 +20,12 @@
 
 .text-desc {
     font-size: 2.2em;
-    color: #183153;
+    color: #000;
     text-align: center;
 }
+
 .branch-desc {
-color: #183153;
+color: #000;
 text-align: left;
 font-size: 1.9em;
 padding-left: 1em;

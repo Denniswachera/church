@@ -62,7 +62,7 @@
         -ms-flex-align: center;
             align-items: center;
     margin-bottom: 30px;
-    gap: 50px;
+    gap: 20px;
   }
   @media (max-width: 767px) {
     .footer__container {
@@ -83,6 +83,8 @@
     }
   }
   .footer__bottom {
+    line-height: 1.2;
+    font-size: 1.3em;
     padding: 30px;
     color: #ffffff;
     display: -webkit-box;
@@ -96,6 +98,7 @@
             justify-content: center;
     font-weight: 700;
     margin: 0 auto;
+    text-align: center;
   }
   @media (max-width: 767px) {
     .footer__bottom {

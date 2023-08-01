@@ -19,11 +19,14 @@
 }
 
 .preacher {
-    font-size: 1.4em
+    font-size: 1.8em
 }
 
 .text-description {
     font-size: 1.7em;
+    font-style: italic;
+    padding-top: 0.5em;
+    text-decoration: underline;
 }
 
 
@@ -45,8 +48,9 @@
     }
 
     .audio-wrap {
-        width: 40%;
+        width: 50%;
         height: auto;
+        padding-top: 1em;
     }
     
 }

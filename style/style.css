@@ -234,7 +234,7 @@
     }
 }
 
-@media only screen and (min-device-width: 801px) {
+@media only screen and (min-device-width: 920px) {
 
 
     .header-text-wrap {
@@ -446,13 +446,13 @@
     }  
     
     .globe-align {
-        width: 40%;
+        width: 50%;
         height: auto;
         padding-top: 3em;
     }
 
     .bible-collage-text {
-        width: 60%;
+        width: 50%;
         height: auto;
         padding: 4em 1em 0 1em;
         font-size: 2.4em;

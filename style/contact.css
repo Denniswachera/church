@@ -37,6 +37,11 @@ input:required {
 .image {
     width: 100%;
     height: auto;
+    filter: brightness(90%) contrast(110%);
+}
+
+.btn:hover {
+    background-color: cadetblue;
 }
 
 @media only screen and (min-device-width: 801px) {
@@ -60,10 +65,16 @@ input:required {
     .form {
         width: 50%;
         height: 518.4px;
+        margin-left: 3em;
 
     }
 
     .wrap {
         display: flex;
+    }
+
+    input:required {
+        height: 7vh;
+        width: 100%;
     }
 }
