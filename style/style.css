@@ -243,12 +243,12 @@
 
     .hero-page {
         background-color: #fff;
-        width: 95%;
-        height: 80vh;
+        width: 100%;
+        height: auto;
         display: flex;
         flex-direction: row-reverse;
         margin: 0 auto;
-        padding: 2em 0 0 0;
+        padding: 3em 2em;
     }
 
     .header-text h1 {
@@ -270,7 +270,7 @@
     .text-wrapper {
         position: relative;
         padding-left: 0.2em;
-        width: 55%;
+        width: 50%;
         height: auto;
         display: flex;
         flex-direction: column;
@@ -286,7 +286,7 @@
 
     .img {
         display: block;
-        width: 45%;
+        width: 50%;
         height: auto;
     }
 
