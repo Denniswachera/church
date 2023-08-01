@@ -10,7 +10,7 @@
 }
 
 .audio-text {
-    color: #183153;
+    color: #000;
 }
 
 .audio{
@@ -41,7 +41,12 @@
 
     .shadow {
         display: flex;
-        justify-content: space-evenly;
+        justify-content: space-between;
+    }
+
+    .audio-wrap {
+        width: 40%;
+        height: auto;
     }
     
 }

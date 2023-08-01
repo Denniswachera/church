@@ -281,15 +281,14 @@ ul li {
     opacity: 0.7;
   }
 
-  .laptop-logo {
+  laptop-logo {
+    display: none
+}
+
+logo-text {
     display: none;
 }
 
-.logo-text {
-    display: none;
-}
-
-@media only screen and (min-device-width: 801px) {
 
     .logo {
         display: none;
@@ -308,6 +307,14 @@ ul li {
         color: #183153;
         font-weight: bolder;
         position: absolute;
-        margin-top: 0.6em;
+        margin-top: 0.1em;
     }
+
+     @media only screen and (min-device-width: 801px) { 
+
+      .logo-text {
+        font-size: 1.8em;
+        margin-top: 0.3em;
+      }
+
   }
