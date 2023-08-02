@@ -396,7 +396,7 @@
     .service {
         display: flex;
         flex-direction: row-reverse;
-        padding: 4em 0;
+        padding: 4em auto;
     }
 
     .width {
@@ -408,6 +408,7 @@
     .service-wrapper {
         display: flex;
         flex-direction: row;
+        padding-bottom: 3em;
     }
 
     .list-wrap {
