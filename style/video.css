@@ -52,4 +52,9 @@
         width: 80%;
         margin: 0 auto;
     }
+
+    .verse {
+        font-size: 3em;
+        text-align: center;
+    }
 }
