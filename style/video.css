@@ -8,6 +8,12 @@
     height: auto;
 }
 
+.verse {
+    font-size: 2em;
+    width: 95%;
+    margin: 0 auto;
+}
+
 
 .audio-text {
     color: #000;

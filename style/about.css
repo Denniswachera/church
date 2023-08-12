@@ -54,5 +54,12 @@ padding-left: 1em;
     display: block;
  }
 
+ .header-image {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    margin-left: 6em;
+ }
+
 
 }
