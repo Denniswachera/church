@@ -6,6 +6,8 @@
 
 .img {
     display: block;
+    width: 95%;
+    margin: 0 auto;
 }
 
 .image {
@@ -285,6 +287,7 @@
     }
 
     .img {
+        padding-top: 8em;
         display: block;
         width: 50%;
         height: auto;
