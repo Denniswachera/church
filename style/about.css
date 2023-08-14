@@ -23,6 +23,9 @@
     color: #000;
     text-align: center;
 }
+.video {
+
+}
 
 .branch-desc {
 color: #000;
@@ -43,11 +46,15 @@ padding-left: 1em;
 
 
 @media only screen and (min-device-width: 801px) {
- .main {
+ ain {
     width: 70%;
     margin: 0 auto;
     padding-top: 8.2em;
 
+ }
+
+ .width {
+    max-width: 50%;
  }
  
  .intro-text {

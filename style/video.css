@@ -42,11 +42,6 @@
     .hero-page {
         padding-top: 8.2em;
     }
-    
-    .main {
-        width: 70%;
-        margin: 0 auto;
-    } 
 
     .video-width {
         width: 80%;
@@ -56,5 +51,10 @@
     .verse {
         font-size: 3em;
         text-align: center;
+    }
+
+    .text-description {
+        padding-left: 3em;
+        padding-top: 1em;
     }
 }

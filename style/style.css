@@ -21,9 +21,6 @@
     color: #183153;
 }
 
-.header-text-wrap {
-}
-
 .header-text h1 {
     font-size: 3em;
     padding-left: 0.3em;
@@ -70,6 +67,7 @@
     height: auto;
     color: #183153;
     border: 2px solid #000;
+    border-radius: 12px;
 }
 
 .btn-info {
@@ -147,7 +145,6 @@
 }
 
 .testimony {
-    text-align: center;
     background-color: #f8f8f8;
 }
 
@@ -237,6 +234,10 @@
 }
 
 @media only screen and (min-device-width: 920px) {
+
+    .width-pad {
+        width: 50%;
+    }
 
 
     .header-text-wrap {
@@ -348,7 +349,7 @@
     text-align: left;
     font-size: 2em;
     padding-top: 1em;
-    padding-left: 1em;
+    padding-left: 0.5em;
     font-family: serif;
     width: 100%;
 }

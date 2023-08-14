@@ -10,9 +10,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
      type="text/css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" 
-    rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
-     crossorigin="anonymous">    
+     <link rel="stylesheet" href="style/bootstrap.min.css">    
     <link rel="stylesheet" href="style/nav.css" type="text/css">
     <link rel="stylesheet" href="style/footer.css" type="text/css">
     <link rel="stylesheet" href="style/about.css" type="text/css">
@@ -43,52 +41,61 @@
         </div>
     </header>
 <main class="main">
-    <section class="hero-page">
-        <div>
-            <video class="header-image rounded" src="video/testimony.mp4"
-             controls poster="video/testimony.png"></video>
-          <!--  <img class="header-image rounded" src="images/photos/northeastern(3).jpeg"
-             alt="photo from northeastern"> -->
+    <section class="hero-page d-md-flex flex-md-row-reverse p-2 shadow-sm mb-1 rounded bg-white">
+        <div class="width mx-auto embed-responsive pt-5">
+            <video class="video mw-100 h-auto rounded embed-responsive-item" src="video/samburuvideo.mp4"
+             controls></video>
+        </div>
+        <div class="mx-auto width">
+            <p class="text-lg-right fs-1 pt-5 mt-lg-5 lh-sm">
+                Our branch in Samburu where we distributed footstuff to the people of God.
+                This mission is part of our vision of reaching those who have never been
+                reached by the gospel, especially those who are in remote parts 
+                of the country.
+            </p>
         </div>
     </section>
-
-        <br>
-        <section class="history">
-        <div class="shadow p-4 mb-2 bg-white rounded">
-            <div class="align">
+<br>
+<section class="hero-page d-md-flex flex-md-row shadow-sm p-2 pt-5 pb-5 mb-2 mt-lg-4 mb-lg-4 rounded bg-white">
+    <div class="width">
+        <img class="mw-100 rounded-2" src="images/photos/north2.jpeg" alt="samburu image">
+    </div>
+    <div class="width text-center pt-4">
+        <span class="align d-none d-lg-block">
             <i class="fa-solid fa-earth-oceania fa-10x"></i>
-            </div>
-            <br>
-            <p id="history" class="intro-text"> History</p>
-            <p class="text-desc">Our Church was founded in 1997 in Nakuru.
-                 This is where our Motherchurch 
-                is located.
-            </p>
-        </div>
-        </section>
-    <section class="leadership">
-        <div class="shadow p-3 mb-2 bg-white rounded">
-            <div class="align">
-            <i class="fa-solid fa-earth-africa fa-10x"></i>
-            </div>
-            <br>
-            <p class="intro-text"> Leadership</p>
-            <p class="text-desc">The leadership of the church is Jesus christ through his servant 
-                Apostle Johanna.
-            </p>
-        </div>
-    </section>
-    <section class="leadership">
-        <div class="shadow p-3 mb-2 bg-white rounded">
-            <div class="align">
+        </span>
+        <h2 class="intro-text">History</h2>
+        <p class="fs-1 p-2 mt-lg-5 lh-sm">
+            The church was founded in 1997, Nakuru.
+            This is where our motherchurch is located.
+        </p>
+    </div>
+</section>
+<section class="hero-page d-md-flex flex-md-row-reverse shadow-sm p-2 pt-5 pb-5 mb-2 mt-lg-4 mb-lg-4 rounded bg-white">
+    <div class="width">
+        <img class="mw-100 rounded-2" src="images/photos/northeastern (5).jpeg" alt="samburu image">
+    </div>
+    <div class="width text-center pt-4">
+        <span class="align d-none d-lg-block">
+            <i class="fa-solid fa-earth-oceania fa-10x"></i>
+        </span>
+        <h2 class="intro-text">Leadership</h2>
+        <p class="fs-1 p-2 mt-lg-5 lh-sm">
+            The leadership of the church is Jesus christ through his servant Apostle Johanna.
+        </p>
+    </div>
+</section>
+    <section class="leadership text-center ">
+        <div class="shadow p-3 mb-2 rounded p-2 text-dark">
+            <div class="align d-none d-lg-block">
             <i class="fa-solid fa-earth-europe fa-10x"></i>
             </div>
             <br>
             <p id="branches" class="intro-text"> Branches</p>
-            <p class="text-desc"> We have several branches within Kenya and Ethipiopia.                 
+            <p class="text-lg-right fs-1 pt-3 lh-sm"> We have several branches within Kenya and Ethipiopia.                 
             </p>
-            <p class="branch-desc">Some of these branches include:</p>
-            <ul class="list branch-desc">
+            <p class="text-lg-right fs-1 pt-2 lh-sm">Some of these branches include:</p>
+            <ul class="text-right fs-2 pt-2 lh-sm">
                 <li>Kabarnet</li>
                 <li>Kericho</li>
                 <li>Bahati</li>
@@ -96,8 +103,9 @@
                 <li>Nairobi</li>
                 <li>Gilgil</li>
             </ul>
-            <p class="branch-desc">and many more!</p>
-            <p class="branch-desc">You are welcome to visit and fellowship in 
+            <p class="text-lg-right fs-1 pt-2 lh-sm">and many more!
+                <br>
+                You are welcome to visit and fellowship in 
                 any of our branches. Be blessed.</p>
         </div>
     </section>
@@ -121,7 +129,7 @@
                     <h4 class="menu-footer__title">Contact</h4>
                     <a href="tel:+254700000000" class="menu-footer__link">+254722578354</a>
                     <a href="mailto:apostlejohanna@enddayministry.com" 
-                    class="menu-footer__link">apostlejohanna@ymail.com</a>
+                    class="menu-footer__link">apostlejohanna@enddayministry.com</a>
                     <p class="menu-footer__link">P.O Box 7436-20110</p>
                 </div>
 
