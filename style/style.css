@@ -400,7 +400,6 @@
     .service {
         display: flex;
         flex-direction: row-reverse;
-        padding: 4em auto;
     }
 
     .width {

@@ -14,9 +14,12 @@
     margin: 0 auto;
 }
 
+.video-width {
+    background-color: #183153;
+}
 
 .audio-text {
-    color: #000;
+    color: #fff;
 }
 
 .video {
@@ -44,17 +47,14 @@
     }
 
     .video-width {
-        width: 80%;
         margin: 0 auto;
     }
 
     .verse {
         font-size: 3em;
-        text-align: center;
     }
 
     .text-description {
-        padding-left: 3em;
         padding-top: 1em;
     }
 }
