@@ -41,7 +41,7 @@
     }
   }
   .footer-solo__link {
-    color: #94243c;
+    color: #A52A2A;
   }
   .footer-solo__link:hover {
     text-decoration: underline;
@@ -49,7 +49,7 @@
   
   .footer {
     padding: 15px 5px;
-    background: grey;
+    background: #A52A2A;
   }
   .footer__container {
     display: -webkit-box;
