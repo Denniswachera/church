@@ -2,203 +2,290 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="Content-Security-Policy"
-     content="default-src 'self'; img-src https://*; child-src 'none';" />
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/logo/church-logo.ico" type="image/x-icon">
+    <title>End Day Revival Ministry International</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="nakuru end day revival ministry international church">
     <meta name="description" content="Our was founded in 1997, Nakuru County,
     where our motherchurch is located. You are welcomed to for our thursday interdenominational healing service. 
     Be blessed.">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-     type="text/css">
-     <link rel="stylesheet" href="style/bootstrap.min.css">
-    <link rel="stylesheet" href="style/nav.css" type="text/css">
-    <link rel="stylesheet" href="style/footer.css" type="text/css">
-    <link rel="stylesheet" href="style/style.css" type="text/css">
-    <link rel="shortcut icon" href="images/logo/church-logo.ico" type="image/x-icon">
-    <title>End Day Revival Ministry International</title>
+    <link rel="stylesheet" href="style/navbar.css">
+    <link rel="stylesheet" href="style/bootstrap.min.css">
+    <script src="script/bootstrap.bundle.min.js"></script>
+    <meta property="og:title" content="End Day Revival Ministry International" />
+    <meta property="og:description" content="You are welcomed to for our thursday interdenominational healing service. 
+    Be blessed." />
+    <meta property="og:image" content="images/photos/north6.jpeg" />
 </head>
 <body>
-
-    <header class="header">
-        <div class="header__container">
-            <div class="header__logo">
-                <a href="index.html" class="header__link ">
-                    <!--
-                    <img class="logo" src="images/logo/church-logo.png" alt="header logo">
-                    -->
-                    <img class="laptop-logo" src="images/logo/church-logo-laptop.png" alt="header logo">
-                    <span class="logo-text">End Day Revival <br> Ministry International</span>
+    <header>
+      <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <div class="container-fluid d-inline">
+          <a class="navbar-brand" href="index.html">
+            <span class="logo-img">
+                <img src="images/logo/church-logo-laptop.png" alt="logo">
+                <span>            
+                  <span class="logo-text d-lg-none">
+                    End Day Revival <br> Ministry Int'l
+                    </span>
+            <span class="lg-logo-text d-none d-lg-block">
+                End Day Revival <br> Ministry International
+            </span>
+        </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">Menu
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="mynavbar">
+            <ul class="navbar-nav me-auto">
+              <li class="nav-item">
+                <a class="nav-link active" href="index.html">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Media
                 </a>
-            </div>
-            <nav class="header__menu menu">
-                <ul class="menu__list">
-                    <li class="menu__item"><a href="index.html" class="menu__link">Home</a></li>
-                    <li class="menu__item"><a href="about.html" class="menu__link">About Us</a></li>
-                    <li class="menu__item"><a href="video.html" class="menu__link">Video</a></li>
-                    <li class="menu__item"><a href="audio.html" class="menu__link">Audio</a></li>
-                    <li class="menu__item"><a href="contact.html" class="menu__link">Contact</a></li>
-                </ul>
-            </nav>
-                <div class="header__burger"><span></span></div>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item" href="video.html">Video</a>
+                  <a class="dropdown-item" href="audio.html">Audio</a>
+                  <a class="dropdown-item" href="photo.html">Photos</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+            
+            </ul>
+          </div>
         </div>
+      </nav> 
     </header>
-    <section class="hero-page shadow pb-4">
-        <div class="img">
-            <video class="video rounded" preload="none" loading="lazy" controls poster="video/wamae.png">
-                <source src="video/wamae.webm" type="video/webm">
-                <source src="video/wamae.mp4" type="video/mp4">
-            </video>
-        </div>
-        <div class="text-wrapper">
-  <div class="header-text">
-    <div class="rounded header-text-wrap">
-    <h1> To reach those never reached and 
-        <span class="color">teach</span> them 
-        to be a good Timothy</h1>   
-         <p class="italics bold verse">- 2nd Timothy 2:2</p>
-    </div>
-    <p class="text-desc">
-        Every Thursday we have a healing
-         service that is interdenominational and open to all.
-        You are welcomed to visit and fellowship with us at Nakuru A.S.K showground.
-         Be blessed.
-    </p>
-  </div>
-  <br>
-  <div class="buttons">
-    <div class="watch">
-    <a href="video.html" type="submit" class="btn primary"><i class="fa-solid fa-video"></i> <span></span>Watch</a>
-    </div>
-    <br>
-    <br>
-    <div class="listen">
-    <a href="audio.html" type="button" class="btn btn-info"><i class="fa-solid fa-music"></i> <span></span>Listen</a>
-    </div>
-  </div>
-        </div>
-    </section>
-    <br>
-
-    <main class="main">
-
-    <section class="service shadow p-0 p-lg-4 mb-2"> 
-        <div class="service-wrapper width">
-            <div class="calendar d-none d-lg-block">
-                <img class="calendar-image rounded" loading="lazy" src="images/photos/sambur9.jpeg" alt="calendar">
+    <main class="main p-1 p-lg-5">
+        <section class="hero-page d-lg-flex pb-5 pt-5 pb-lg-5 pt-lg-2">
+            <div class="width p-lg-3">
+                <h1 class="fs-1">
+                To Reach Those Never Reached and Teach Them To Be A Good Timothy
+                </h1>
+                <p class="fst-italic fs-3 text-muted">
+                   - 2nd Timothy 2:2
+                </p>
+                <p class="pt-2 fs-4">
+                    Every Thursday we have a healing
+                    service that is interdenominational and open to all.
+                    Welcome and be blessed.
+                </p>
+                <p class="d-block p-1 d-lg-flex p-lg-5 pt-lg-1 m-auto">
+                    <a class="btn btn-info rounded-pill w-100 m-lg-3  border border-secondary fs-5 shadow mt-3" href="video.html">
+                        <i class="fa fa-video-camera"></i>
+                        Watch
+                    </a>
+                    <a class="btn btn-success rounded-pill w-100 m-lg-3 border border-primary fs-5 shadow mt-3" href="audio.html">
+                        <i class="fa fa-file-audio"></i>
+                        Listen
+                    </a>
+                </p>
             </div>
-            <br>
-            <div class="list-wrap">
-            <div class="sunday">
-            <h2 class="day"><i class="fa-solid fa-calendar-day"></i> Sunday</h2>
-            <p class="time"><span class="italics">1st -</span> 8:00am - 10:00am</p>
-            <p class="time"><span class="italics">2nd -</span> 10:00am - 1:00pm</p>
-        </div>
-        <div class="thursday">
-            <h2 class="day"><i class="fa-solid fa-calendar-week"></i> Thursday</h2>
-            <p class="italics time">(healing-service)</p>
-            <p class="time" >10:00am - 1:00pm</p>
-        </div>
-        <div class="saturday">
-            <h2 class="day"><i class="fa-solid fa-calendar-plus"></i> Saturday</h2>
-            <p class="time">Bible College</p>
-            <p class="time">Computer Lessons</p>
-        </div>
-        </div>
-        </div>
-    </section>
-    <section class="bible-college p-1 pt-5 mt-2 mb-2">
-        <div class="bible-college width">
-        <div class="globe-align">
-            <img class="rounded-2 bible-college-svg pt-lg-5" loading="lazy"
-             src="images/photos/north2.jpeg" alt="globe svg">
-        </div>
-        <div class="bible-collage-text">
-            <p>
-                We have a bible college every saturday for those who are aspiring
+            <div class="width p-lg-3 pt-5 pb-2 pt-lg-5">
+                <video controls class="w-100 h-auto" src="video/wamae.mp4" poster="video/wamae.png"></video>
+            </div>
+        </section>
+        <hr>
+        <section class="timetable d-lg-flex pt-5 pb-5 pt-lg-5 pb-lg-1">
+            <div class="d-none d-lg-block width">
+                <img class="w-100 h-auto rounded-3" src="images/photos/sambur9.jpeg" alt="samburu photo">
+            </div>
+            <div class="text-center width pt-lg-2 pt-5">
+                <p class="d-block">
+                    <span class="fs-1 fw-bold text-uppercase pt-lg-2 text-decoration-underline">
+                        <i class="fa fa-calendar-day"></i>
+                         Sunday
+                        </span> <br>
+                    <span class="fst-italic fs-4">1st: 8:00am-10:00am</span> <br>
+                    <span class="fst-italic fs-4">2nd: 10:00am-1:00pm</span>
+                </p>
+                <p class="d-block pt-3">
+                    <span class="fs-1 fw-bold text-uppercase pt-lg-5 text-decoration-underline">
+                        <i class="fa fa-calendar-days"></i>
+                        Thursday 
+                    </span> <br>
+                    <span class="fst-italic fs-4">(healing-service)</span> <br>
+                    <span class="fst-italic fs-4">10:00am-1:00pm</span>
+                </p>
+                <p class="d-block pt-3">
+                    <span class="fs-1 fw-bold text-uppercase pt-lg-5 text-decoration-underline">
+                        <i class="fa fa-calendar-check"></i>
+                        Saturday
+                    </span> <br>
+                    <span class="fst-italic fs-4">Bible Collage</span>
+                </p>
+            </div>
+
+        </section>
+        <hr>
+        <section class="bible-collage mt-5 pt-lg-5 pb-lg-5 d-lg-flex flex-row-reverse">
+            <div class="width pt-lg-4">
+                <img class="rounded-3 m-auto w-100 h-auto" src="images/photos/north5.jpeg" alt="northeastern img">
+            </div>
+            <div class="width p-lg-3">
+                <p class="fs-3 pt-lg-3 pt-4">
+                    We have a bible college every saturday for those who are aspiring
                  to be certified pastors.
                 It is a convinient and affordable way to learn theology.
                  This program is open for all.
-                For more information see bottom of page for a phone number you can call.
-            </p>
-        </div>
-        </div>
-               
-    </section>
-    
-    <section class="testimony d-md-flex flex-md-row p-2 shadow-sm mb-1 rounded pb-5">
-        <div class="video-play width-pad pt-2 pt-lg-5">
-            <video class="video rounded" src="video/testimony.mp4" loading="lazy"
-             poster="video/testimony.png" controls></video>
-        </div>
-        <div class="text-lg-right fs-1 pt-5 mt-lg-1 lh-sm width-pad">
-            <p class="p-3 p-lg-4">
-   <span>
-    <i class="fa fa-file-audio"></i>
-   </span> 
-   A testimony by Helen of the blessings and miracles she has witnessed.
-            </p>
-            <hr>
-            <p class="p-3 pt-0 p-lg-4">
-                <span><i class="fa fa-quote-left"></i></span>
+                </p>
+            </div>
+
+        </section>
+        <hr>
+        <section class="testimonial d-lg-flex pt-5 pb-5 pb-lg-5 pt-lg-5">
+            <div class="width">
+                <video class="w-100 h-auto rounded" controls poster="video/testimony.png" src="video/testimony.mp4"></video>
+            </div>
+            <div class="width pt-3 p-lg-3">
+                <p class="fs-1 text-decoration-underline text-center fw-bold">
+                    Helen's Testimony
+                </p>
+                <p class="fs-4">
+                    <span><i class="fa fa-quote-left"></i></span>
                 And these signs will follow those who believe: In My name they will cast out demons;
                  they will speak with new tongues; they will take up serpents; 
                  and if they drink anything deadly,it will by no means hurt them; 
                  they will lay hands on the sick, and they will recover.”
-            </p>
-            <span class="p-2 pt-1 pt-lg-0 text-center fs-2 fst-italic text-decoration-underline">
-                Mark 16:17-18
-            </span>
-        </div>
-    </section>
-    <section class="project shadow p-2 pt-lg-5 pb-lg-5 mb-2 bg-white rounded">
-     <div class="text-desc project-text"> 
-            <br>
-            <p>We have a church project of contructing a sanctuary and an orphanage.
-                Any assistance with the ongoing project will be greatly appreciated. If you are willing
-                to give you can send to <span class="italics">+254722578354.</span>
-            </p>
-        </div>
-        <br>
-        <div class="project-img">
-            <img class="north-img rounded" loading="lazy" src="images/photos/north6.jpeg"
-             alt="photo from north eastern">
-        </div>
-    </section>
-</main>
-<footer class="footer">
-    <div class="footer__container">
-        <div class="footer__menu menu-footer">
-            <div class="menu-footer__items">
-                <div class="menu-footer__item">
-                    <h4 class="menu-footer__title">Media</h4>
-                    <a href="video.html" class="menu-footer__link">Video</a>
-                    <a href="audio.html" class="menu-footer__link">Audio</a>
-                </div>
-                <div class="menu-footer__item">
-                    <h4 class="menu-footer__title">About Us</h4>
-                    <a href="about.html#history" class="menu-footer__link">History</a>
-                    <a href="about.html#branches" class="menu-footer__link">Branches</a>
-                </div>
-                <div class="menu-footer__item">
-                    <h4 class="menu-footer__title">Contact</h4>
-                    <a href="tel:+254700000000" class="menu-footer__link">+254722578354</a>
-                    <a href="mailto:apostlejohanna@enddayministry.com" 
-                    class="menu-footer__link">apostlejohanna@enddayministry.com</a>
-                    <p class="menu-footer__link">P.O Box 7436-20110</p>
-                </div>
-
-
+                </p>
+                <p class="fst-italic fs-5 text-muted">
+                   - Mark 16: 17-18
+                </p>
             </div>
+        </section>
+        <hr>
+        <section class="projects d-lg-flex flex-row-reverse pt-3 pb-5 pb-lg-5 pt-lg-5">
+            <div class="width">
+                <img class="w-100 h-auto rounded-3 m-auto" src="images/photos/north6.jpeg" alt="northeastern image">
+            </div>
+            <div class="width pt-lg-5">
+              <p class="fw-bold pt-3 fs-1 text-uppercase text-center text-decoration-underline">
+                Church Project
+            </p>
+                <p class="fs-3 p-lg-3 pt-2 pt-lg-3">
+                    We are in the process of contructing a sanctuary and an orphanage.
+                    Any assistance with the ongoing project will be greatly appreciated. If you are willing
+                    to give you can send to <span class="fst-italic">+254722578354.</span>
+                </p>
+            </div>
+        </section>
+    </main> 
+    <!-- Footer -->
+<footer class="text-center text-lg-start bg-light text-muted">
+    <!-- Section: Social media -->
+    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+      <!-- Left -->
+      <div class="me-5 d-none d-lg-block">
+        <span>Get connected with us on social networks:</span>
+      </div>
+      <!-- Left -->
+  
+      <!-- Right -->
+      <div>
+        <a href="#" class="me-4 text-reset">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+       
+        <a href="#" class="me-4 text-reset">
+          <i class="fab fa-google"></i>
+        </a>
+        
+        <a href="#" class="me-4 text-reset">
+          <i class="fab fa-youtube"></i>
+        </a>
+        
+      </div>
+      <!-- Right -->
+    </section>
+    <!-- Section: Social media -->
+  
+    <!-- Section: Links  -->
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Content -->
+            <h6 class="text-uppercase fw-bold mb-4">
+                <a href="index.html" class="text-decoration-none text-center">
+              <img class="w-50 h-auto" src="images/logo/church-logo-laptop.png" alt="church-logo"> <br>
+                <span>End Day Revival Ministry International</span>
+              </a>
+            </h6>
+            <p>
+              You are welcomed to visit and fellowship with us.
+            </p>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Media
+            </h6>
+            <p>
+              <a href="video.html" class="text-reset">Videos</a>
+            </p>
+            <p>
+              <a href="audio.html" class="text-reset">Audio</a>
+            </p>
+            <p>
+              <a href="photo.html" class="text-reset">Photos</a>
+            </p>
+          </div>
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <h6 class="text-uppercase fw-bold mb-4">
+                <a href="about.html" class="text-decoration-none text-dark">
+                About
+                </a>
+              </h6>
+              <p>
+                <a href="about.html#history" class="text-reset">Our History</a>
+              </p>
+              <p>
+                <a href="about.html#leadership" class="text-reset">Leadership</a>
+              </p>
+              <p>
+                <a href="about.html#branch" class="text-reset">Branches</a>
+              </p>
+          </div>
+        
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+            <p><i class="fas fa-home me-3"></i> Nakuru, showground, Kenya</p>
+            <p>
+              <i class="fas fa-envelope me-3"></i>
+              apostle@enddayministry.com
+            </p>
+            <p><i class="fas fa-phone me-3"></i> +254 722 578 354</p>
+          </div>
+          <!-- Grid column -->
         </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Section: Links  -->
+  
+    <!-- Copyright -->
+    <div class="text-center text-dark p-4 bg-transparent">
+      © 2023 Copyright:
+      <a class="text-reset fw-bold" href="https://enddayministry.com">enddayministry.com</a>
     </div>
-    <div class="footer__bottom">© 2023 End Day Revival Ministry International
-         - All Rights Reserved</div>
-</footer>
-
-    
-    <script src="script/main.js"></script>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->  
 </body>
 </html>

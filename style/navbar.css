@@ -1,0 +1,68 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 2.5em; 
+    height: auto;
+    margin-left: -0.7em;
+}
+
+.logo-text {
+    position: absolute;
+    font-size: 0.725em;
+    width: 5em;
+    height: auto;
+    line-height: 18px;
+    margin-top: 0.3em;
+    font-family: monospace;
+    word-spacing: -5px;
+    margin-left: 0.2em;
+}
+
+
+.navbar-toggler {
+    position: absolute;
+    margin-left: 6em;
+    font-size: 0.5em;
+}
+
+
+@media only screen and (min-device-width: 1200px){
+
+    img {
+        width: 3em; 
+        height: auto;
+        margin-left: 2em;
+    }
+   
+    .lg-logo-text {
+        position: absolute;
+        margin-top: -2.5em;
+        margin-left: 5.7em;
+        font-size: 0.9em;
+        line-height: 25px;
+        font-family: monospace;
+        word-spacing: -5px;
+    }
+
+    nav {
+        display: inline;
+    }
+
+    ul {
+        position: absolute;
+        margin-left: 35em;
+        padding-bottom: 2.5em;
+        font-size: 1.2em;
+        gap: 15px;
+      
+    }
+
+    .width {
+        width: 50%;
+        height: auto;
+    }
+    
+}
