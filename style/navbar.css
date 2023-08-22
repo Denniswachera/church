@@ -3,6 +3,12 @@
     padding: 0;
 }
 
+.btn-watch {
+    -moz-box-shadow: inset -2px -4px 5px #100367;
+    -webkit-box-shadow: inset -2px -4px 5px #100367;
+    box-shadow: inset -2px -4px 5px #100367;
+}
+
 img {
     width: 2.5em; 
     height: auto;
@@ -39,10 +45,10 @@ img {
    
     .lg-logo-text {
         position: absolute;
-        margin-top: -2.5em;
-        margin-left: 5.7em;
-        font-size: 0.9em;
-        line-height: 25px;
+        margin-top: -2.8em;
+        margin-left: 6.2em;
+        font-size: 0.8em;
+        line-height: 23px;
         font-family: monospace;
         word-spacing: -5px;
     }
