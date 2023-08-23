@@ -4,9 +4,17 @@
 }
 
 .btn-watch {
-    -moz-box-shadow: inset -2px -4px 5px #100367;
-    -webkit-box-shadow: inset -2px -4px 5px #100367;
-    box-shadow: inset -2px -4px 5px #100367;
+    -moz-box-shadow: inset -2px -4px 5px rgba(0, 0, 0, .5);
+    -webkit-box-shadow: inset -2px -4px 5px rgba(0, 0, 0, .5);
+    box-shadow: inset -2px -4px 5px rgba(0, 0, 0, .5);
+}
+
+.btn-listen {
+    -moz-box-shadow: inset -2px -4px 5px #000;
+    -webkit-box-shadow: inset -2px -4px 5px #000;
+    box-shadow: inset -2px -4px 5px #000;
+    color: #fff;
+    background-color: #100367;
 }
 
 .logo-img {
