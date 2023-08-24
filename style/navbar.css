@@ -16,19 +16,18 @@
     color: #fff;
     background-color: #100367;
 }
-
 .logo-img {
-    width: 2.5em; 
+    width: 3em; 
     height: auto;
 }
 
 .logo-text {
     position: absolute;
-    font-size: 0.8em;
+    font-size: 0.95em;
     width: 5em;
     height: auto;
     line-height: 18px;
-    margin-top: 0.25em;
+    margin-top: 0.3em;
     font-family: monospace;
     word-spacing: -5px;
     margin-left: 0.2em;
@@ -37,7 +36,8 @@
 
 .navbar-toggler {
     position: absolute;
-    right: 5px;
+    right: 10px;
+    top: 15px;
 }
 
 .audio {
