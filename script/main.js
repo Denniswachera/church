@@ -7,3 +7,5 @@ burgerIcon.addEventListener('click', (e) => {
 		menu.classList.toggle('_active');
 	}
 })
+
+
