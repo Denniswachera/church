@@ -35,9 +35,13 @@
 
 
 .navbar-toggler {
-    position: absolute;
-    right: 10px;
-    top: 15px;
+    float: right;
+    right: 15px;
+    top: 20px;
+}
+
+.navbar-brand {
+    margin-left: -10px;
 }
 
 .audio {
