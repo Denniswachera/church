@@ -15,6 +15,8 @@
     <link rel="stylesheet" href="style/navbar.css">
     <link rel="stylesheet" href="style/bootstrap.min.css">
     <script src="script/bootstrap.bundle.min.js" async="" type="text/javascript" ></script>
+    <script type="module" src="https://cdn.jsdelivr.net/npm/media-chrome@1/+esm" async></script>
+
     <meta property="og:title" content="End Day Revival Ministry International" />
     <meta property="og:description" content="You are welcomed to for our thursday interdenominational healing service. 
     Be blessed." />
@@ -94,7 +96,24 @@
                 </p>
             </div>
             <div class="width p-lg-3 pt-5 pb-2 pt-lg-5">
+              <!--
                 <video controls class="w-100 h-auto" src="video/wamae.mp4" poster="video/wamae.png"></video>
+              -->
+              <media-controller>
+                <video
+                  slot="media"
+                  src="video/wamae.mp4"
+                  poster="video/wamae.png"
+                ></video>
+                <media-control-bar>
+                  <media-play-button></media-play-button>
+                  <media-mute-button></media-mute-button>
+                  <media-time-range></media-time-range>
+                  <media-time-display></media-time-display>
+                  <media-fullscreen-button></media-fullscreen-button>
+                  <media-playback-rate-button rates="0.1 1 2 3"></media-playback-rate-button>
+                </media-control-bar>
+              </media-controller>
             </div>
         </section>
         <hr>
@@ -147,7 +166,25 @@
         <hr>
         <section class="testimonial d-lg-flex pt-5 pb-5 pb-lg-5 pt-lg-5">
             <div class="width">
+              <!--
                 <video class="w-100 h-auto rounded" controls poster="video/testimony.png" src="video/testimony.mp4"></video>
+              -->
+              <media-controller>
+                <video
+                  slot="media"
+                  src="video/testimony.mp4"
+                  poster="video/testimony.png"
+                ></video>
+                <media-control-bar>
+                  <media-play-button></media-play-button>
+                  <media-mute-button></media-mute-button>
+                  <media-time-range></media-time-range>
+                  <media-time-display></media-time-display>
+                  <media-fullscreen-button></media-fullscreen-button>
+                  <media-playback-rate-button rates="0.1 1 2 3"></media-playback-rate-button>
+                </media-control-bar>
+              </media-controller>
+
             </div>
             <div class="width pt-3 p-lg-3">
                 <p class="fs-1 text-decoration-underline text-center fw-bold">
