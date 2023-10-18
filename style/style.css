@@ -1,0 +1,150 @@
+
+@charset 'utf-8';
+
+.heading {
+    text-transform: capitalize;
+}
+
+.service {
+    line-height: 1.2;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.service p {
+    display: block;
+}
+
+.day {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.main {
+    padding: 1em;
+    margin-top: 4em;
+}
+
+.buttons {
+    text-align: center;   
+}
+
+button[type="submit"] {
+    width: 80%;
+    margin: 5px;
+    text-align: center; 
+    padding: 4px;   
+    font-size: 1.3em;
+    border-radius: 6px;
+}
+
+.listen, .watch {
+    box-shadow: inset -2px -3px 2px #000;
+}
+
+.testimonial {
+    margin-top: 1em;
+    text-align: center;
+}
+
+.video {
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+}
+
+.thursday-info, .helen-testimony {
+    margin-top: 1em;
+    font-size: 1.7em;
+}
+
+.north-img {
+    padding-top: 0.4em;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 6px;
+}
+
+.italic {
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.verse {
+    color: #6c757d !important;
+    font-size: 0.8em;
+}
+
+
+
+@media only screen and (min-device-width: 967px) {
+
+    .navbar {
+        padding-left: 1.4em;
+    }
+
+    .heading {
+        padding-top: 0.1em;
+        width: 90%;
+    }
+
+    .service {
+        text-align: left;
+    }
+
+    .service-flex {
+        display: flex;
+    }
+
+    .main {
+        padding: 4em;
+        margin-top: 4em;
+    }
+
+    .width {
+        width: 50%;
+    }
+
+    .hero {
+        display: flex;
+    }
+
+    .buttons {
+        display: flex;
+        width: 80%;
+    }
+
+    .thursday-info {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .helen-testimony {
+        display: flex;
+    }
+
+    
+
+
+    /* padding styles for desktop */
+
+    .video {
+        padding-top: 0.7em;
+    }
+
+    .thursday-info {
+        padding-top: 2em;
+        padding-bottom: 2em;
+    }
+
+    .service-info {
+        padding-top: 1.5em;
+        margin: 1em;
+    }
+
+    .pad {
+        padding-top: 0.2em;
+    }
+    
+}
