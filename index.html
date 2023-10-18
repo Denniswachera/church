@@ -22,6 +22,7 @@ Be blessed." />
 <meta property="og:image" content="images/photos/north6.jpeg" />
 <meta name="theme-color" media="(prefers-color-scheme: light)" content="crimson" />
     <meta name="theme-color" media="(prefers-color-scheme: dark)" content="black" />
+    <script type="module" src="https://cdn.jsdelivr.net/npm/media-chrome@1/+esm"></script>
 </head>
 <body>
     <header>
@@ -94,9 +95,26 @@ Be blessed." />
       </div>
     </div>
       <div class="testimonial width">
+        <!--
         <video class="video" poster="video/wamae.png" controls>
           <source src="video/wamae.mp4">
         </video>
+      -->
+      <media-controller>
+        <video
+          slot="media"
+          src="video/wamae.mp4"
+          poster="video/wamae.png"
+        ></video>
+        <media-control-bar>
+          <media-play-button></media-play-button>
+          <media-mute-button></media-mute-button>
+          <media-time-range></media-time-range>
+          <media-time-display></media-time-display>
+          <media-fullscreen-button></media-fullscreen-button>
+          <media-playback-rate-button rates="0.1 1 2 3"></media-playback-rate-button>
+        </media-control-bar>
+      </media-controller>
       </div>
     </section>
     <section class="thursday-info">
@@ -121,9 +139,26 @@ Be blessed." />
         <p class="verse">- Mark 16: 17-18</p>
       </div>
       <div class="width">
+        <!--
         <video class="video" poster="video/testimony.png" controls>
           <source src="video/testimony.mp4">
-        </video>          
+        </video>   
+      -->
+      <media-controller>
+        <video
+          slot="media"
+          src="video/testimony.mp4"
+          poster="video/testimony.png"
+        ></video>
+        <media-control-bar>
+          <media-play-button></media-play-button>
+          <media-mute-button></media-mute-button>
+          <media-time-range></media-time-range>
+          <media-time-display></media-time-display>
+          <media-fullscreen-button></media-fullscreen-button>
+          <media-playback-rate-button rates="0.1 1 2 3"></media-playback-rate-button>
+        </media-control-bar>
+      </media-controller>       
       </div>
     </section>
 
