@@ -47,7 +47,7 @@ button[type="submit"] {
     text-align: center;
 }
 
-.video {
+video,media-controller {
     width: 100%;
     height: auto;
     border-radius: 6px;
@@ -55,7 +55,7 @@ button[type="submit"] {
 
 .thursday-info, .helen-testimony {
     margin-top: 1em;
-    font-size: 1.7em;
+    font-size: 1.5em;
 }
 
 .north-img {
