@@ -11,20 +11,20 @@ html, body {
 }
 
 .logo-img img {
-    width: 2.5em; 
+    width: 55px; 
     height: auto;
     margin-left: -0.7em;
 }
 
 .logo-text {
     position: absolute;
-    font-size: 1em;
-    width: 5em;
+    width: auto;
     height: auto;
     line-height: 16px;
-    top: 8px;
+    top: 14px;
     font-family: monospace;
     word-spacing: -5px;
+    font-size: 18px;
 }
 
 .navbar-toggler {
