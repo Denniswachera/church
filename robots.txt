@@ -1,0 +1,3 @@
+sitemap: https://enddayministry.com/sitemap.xml
+sitemap: https://www.enddayministry.com/sitemap.xml
+
